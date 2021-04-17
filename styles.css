@@ -2,11 +2,15 @@
 
 
 :root {
-    --primary-color: cyan;
+    --primary-color: #FBCFE8;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    margin: 2rem 0rem;
 }
 
 /** container **/
@@ -39,3 +43,6 @@ body {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
+
+/* Read up BEM naming convention for CSS*/
+
